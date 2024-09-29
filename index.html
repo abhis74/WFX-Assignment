@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WFX Demo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <svg
+          width="164"
+          height="32"
+          viewBox="0 0 164 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_171_15747)">
+            <path
+              d="M74.0859 7.88265V11.6336H75.1161C75.5041 11.6336 75.803 12.4 75.9041 12.7831L81.0554 32.4458H86.1458L90.8124 15.5057L95.1757 32.4458H100.448C102.044 26.2546 105.284 13.6543 105.478 12.7831C105.672 11.9119 106.327 11.7344 106.63 11.7546H109.054V32.4458H113.539V22.5237H121.357V18.7122H113.539V11.7546H122.69C123.224 11.7062 123.68 12.2185 123.842 12.4806L136.75 32.4458H141.962C137.275 25.0647 127.744 10.0365 127.114 8.97163C126.484 7.90685 125.235 7.80194 124.69 7.88265H104.024C101.939 7.88265 101.297 9.496 101.237 10.3027L97.4787 27.3033L92.6914 7.88265H88.9335L83.9037 27.3033C82.6916 22.0801 80.219 11.2586 80.0251 9.75815C79.8311 8.25773 78.4898 7.88265 77.8433 7.88265H74.0859Z"
+              fill="url(#paint0_linear_171_15747)"
+            />
+            <path
+              d="M126.023 32.4462H120.993L128.387 20.7091L130.69 24.3996L126.023 32.4462Z"
+              fill="url(#paint1_linear_171_15747)"
+            />
+            <path
+              d="M134.508 19.4988L132.023 15.5662C133.134 13.6706 135.477 9.67347 135.962 8.85068C136.447 8.02789 137.498 7.90282 137.962 7.94314H141.296V11.7547H140.023C139.489 11.7547 139.154 12.0371 139.053 12.1782L134.508 19.4988Z"
+              fill="url(#paint2_linear_171_15747)"
+            />
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M31.5187 11.2714C18.6497 13.8178 18.8054 32.4076 32.3342 32.3715L59.4284 32.2995C60.5343 32.2966 61.6036 32.0783 62.6363 31.7527C67.7996 30.1599 71.4192 25.5566 71.4274 20.2451C71.4511 4.84887 48.0433 4.76755 46.878 19.449L46.8404 19.8798C47.2605 10.4041 66.6574 5.86649 67.6306 20.2552C67.6249 23.9516 65.0764 27.1166 61.499 28.2386C60.8351 28.4558 60.1345 28.6011 59.4341 28.603L32.3399 28.675C29.9806 28.6813 27.6962 27.9337 26.5568 25.7835C25.3806 23.5975 25.8272 20.7969 27.0837 18.7479C28.5989 16.3035 31.1814 14.9329 34.1301 15.1046L34.6092 15.1391L35.1665 12.3742C36.1327 7.34729 40.6724 3.71048 45.907 3.69657C49.4089 3.68726 52.7241 5.32931 54.7841 8.12312L55.0048 8.4814L55.4104 8.3368C56.2955 8.04735 57.1805 7.86552 58.1023 7.75543L58.9503 7.68142L58.509 6.96481C55.8615 2.62934 51.0734 -0.0136671 45.9126 5.31591e-05C38.9824 0.0184711 33.0033 4.73574 31.5187 11.2714Z"
+              fill="url(#paint3_linear_171_15747)"
+            />
+          </g>
+          <defs>
+            <linearGradient
+              id="paint0_linear_171_15747"
+              x1="67.4957"
+              y1="-1.8331"
+              x2="111.451"
+              y2="34.2221"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#00D1CF" />
+              <stop offset="1" stop-color="#0099C4" />
+            </linearGradient>
+            <linearGradient
+              id="paint1_linear_171_15747"
+              x1="67.4958"
+              y1="-1.83278"
+              x2="111.451"
+              y2="34.2224"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#00D1CF" />
+              <stop offset="1" stop-color="#0099C4" />
+            </linearGradient>
+            <linearGradient
+              id="paint2_linear_171_15747"
+              x1="67.4959"
+              y1="-1.83302"
+              x2="111.451"
+              y2="34.2221"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#00D1CF" />
+              <stop offset="1" stop-color="#0099C4" />
+            </linearGradient>
+            <linearGradient
+              id="paint3_linear_171_15747"
+              x1="67.4958"
+              y1="-1.83278"
+              x2="111.451"
+              y2="34.2224"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#00D1CF" />
+              <stop offset="1" stop-color="#0099C4" />
+            </linearGradient>
+            <clipPath id="clip0_171_15747">
+              <rect width="164" height="32" fill="white" />
+            </clipPath>
+          </defs>
+        </svg>
+      </div>
+
+      <div class="demobtn">
+        <button>Get Free Demo</button>
+      </div>
+    </nav>
+    <section class="mainSection">
+      <div class="mainHeadingSection">
+        <h1 class="heading">
+          Digitize Product Development with WFX Fashion PLM  
+        </h1>
+        <p class="subtext">
+          Plan winning product mixes, design sustainable collections, digitize
+          your workflow and get your products to market faster with WFX
+        </p>
+        <div class="slider">
+          <p class="informationntext">
+            600+ customers across the US, Europe, UK, Asia & Australia! 
+          </p>
+          <div class="swiper mySwiper1" id="swiperRightdiv">
+            <div class="swiper-wrapper" id="swiperRight"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper mySwiper2" id="swiperLeftDiv">
+            <div class="swiper-wrapper" id="swiperLeft"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="actionFrom">
+        <h3 class="formHeading">See WFX in Action</h3>
+        <form action="" method="post" class="fadeeffect" id="formSubmition">
+          <input
+            type="text"
+            id="fullname"
+            name="name"
+            value=""
+            placeholder="Full Name*"
+            pattern="[a-zA-Z]+"
+            required
+          />
+          <input
+            type="email"
+            id="userEmail"
+            name="email"
+            value=""
+            placeholder="Email*"
+            required
+          />
+          <input
+            type="text"
+            id="company"
+            name="name"
+            value=""
+            placeholder="Company*"
+            pattern="[a-zA-Z]+"
+            required
+          />
+          <input
+            type="number"
+            id="userPhone"
+            name="phone"
+            value=""
+            placeholder="Mobile*"
+            max-length="10"
+            required
+          />
+          <p class="formText">
+            We follow GDPR guidelines and respect your data privacy. Your info
+            is only used to contact you about our products.  
+          </p>
+          <button type="submit" class="submit" id="formSubmit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="secondSection">
+      <h2 class="sectionHeading">
+        Recognized as a global leader for Fashion PLM Software
+      </h2>
+      <p class="sectionSubHeading">
+        Top-rated on leading review sites for our exceptional software and
+        customer support.
+      </p>
+      <div class="fashionImgs">
+        <img src="./images/a/Frame 282.png" alt="" />
+        <img src="./images/a/Frame 264.png" alt="" />
+        <img src="./images/a/Frame 285.png" alt="" />
+        <img src="./images/a/Frame 283.png" alt="" />
+        <img src="./images/a/Frame 284.png" alt="" />
+      </div>
+    </section>
+    <section class="thridSection">
+      <h2 class="sectionHeading">
+        Plan, design & create collections on one platform
+      </h2>
+      <p class="sectionSubHeading">
+        A 100% cloud-based PLM built for fashion product development
+        processes—from prototype to production.
+      </p>
+      <div class="slider">
+        <div class="swiper mySwiper3" id="swiperRightdiv">
+          <div class="swiper-wrapper" id="swiperSection"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="informatinSection" id="informatinSection"></div>
+    </section>
+    <section class="forthSection">
+      <h2 class="sectionHeading">Customer Testimonials</h2>
+      <p class="sectionSubHeading">
+        Hear from our customers how WFX gets them more visibility, streamlines
+        processes and facilitates vendor collaboration. 
+      </p>
+      <div class="slider">
+        <div class="swiper mySwiper4" id="swiperRightdiv">
+          <div class="swiper-wrapper" id="swiperSectionTestomoni"></div>
+        </div>
+      </div>
+
+      <div class="informatinSection" id="informatinSection"></div>
+    </section>
+
+    <section class="fifthSection">
+      <h2 class="sectionHeading">Integrations for all your favorite tools</h2>
+      <p class="sectionSubHeading">
+        We offer flexible & scalable integrations with both standard software
+        products and custom applications. 
+      </p>
+      <div class="desktopclientImages">
+        <img src="./images/Frame 265.png" alt="" />
+      </div>
+
+      <div class="slider mobile">
+        <div class="swiper mySwiper1" id="swiperRightdiv">
+          <div class="swiper-wrapper" id="swiperRight1"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper mySwiper2" id="swiperLeftDiv">
+          <div class="swiper-wrapper" id="swiperLeft1"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sixthSection">
+        <h2 class="sectionHeading">Why Choose WFX PLM </h2>
+        <p class="sectionSubHeading">
+            We’ve helped 600+ fashion teams across 50+ countries digitally transform their processes.  
+        </p>
+            <div class="sectionDetails">
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/1.png" alt="" />
+                    <h3>100% Cloud</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform.
+                    </p>
+                </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/2.svg" alt="" />
+                    <h3>Visual Interface</h3>
+                    <p>
+                        Experience a sleek, visually engaging
+                        interface that enhances productivity.
+                    </p>
+                </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/3.svg" alt="" />
+                    <h3>Faster Adoption</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform.
+                    </p>
+              </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/4.png" alt="" />
+                    <h3>Vendor Portal</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform. 
+                    </p>
+              </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/5.svg" alt="" />
+                    <h3>Time & Action</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform. 
+                    </p>
+              </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/6.svg" alt="" />
+                    <h3>Milestone Alerts</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform. 
+                    </p>
+              </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/7.svg" alt="" />
+                    <h3>Mobile Apps</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform. 
+                    </p>
+              </div>
+                <div class="sectionDetail">
+                    <img src="./images/Wfx lm/8.svg" alt="" />
+                    <h3>Data Security</h3>
+                    <p>
+                        Access your PLM anytime, anywhere
+                        with our secure cloud-based platform. 
+                    </p>
+              </div>
+      </section>
+
+      <section class="seventhSection">
+        <h2 class="sectionHeading">Industries We Serve</h2>
+        <div class="slider">
+          <div class="swiper mySwiper6" id="swiperLeftDiv">
+            <div class="swiper-wrapper" id="swiperLeft1">
+                <div class="swiper-slide">
+                    <div class="instagram">
+                        <img src="./images//instagram/Rectangle 2510.png" alt="">
+                        <p>Toys</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide">
+                    <div class="instagram">
+                        <img src="./images//instagram/Rectangle 2511.png" alt="">
+                        <p>Beauty</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide">
+                    <div class="instagram">
+                        <img src="./images//instagram/Rectangle 2512.png" alt="">
+                        <p>Footwear</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide">
+                    <div class="instagram">
+                        <img src="./images//instagram/Rectangle 2513.png" alt="">
+                        <p>Home & Lifestyle</p>
+                    </div>
+                    
+                </div>
+                <div class="swiper-slide">
+                    <div class="instagram">
+                        <img src="./images//instagram/Rectangle 2514.png" alt="">
+                        <p>Jewelry</p>
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="eightSection">
+        <div class="worldImage">
+            <h2 class="worldSectionHeading">Ready to unlock the full potential
+                of your fashion business?</h2>
+                <p class="worldSubtext">Get a personalized demo now and begin your digital transformation journey! </p>
+
+                <button class="viewDemoBtn">View Demo</button>
+        </div>
+    
+      </section>
+
+      
+  </body>
+</html>

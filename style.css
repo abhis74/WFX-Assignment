@@ -1,0 +1,627 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f5f5;
+}
+@font-face {
+  font-family: HvDTrial Brandon Grotesque Regular;
+  src: url(./fonts/HvDTrial_Brandon_Grotesque_regular-BF64a625c9311e1.otf);
+}
+div {
+  background-color: #f5f5f5;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: #fff;
+  box-shadow: 0 0px 11px 0px rgb(0 0 0 / 18%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+section {
+  padding: 4% 5%;
+}
+svg {
+  background-color: #fff;
+}
+.logo {
+  margin-left: 3%;
+  background: #fff;
+}
+.demobtn {
+  margin-right: 3%;
+}
+.mainSection {
+  display: flex;
+  justify-content: space-between;
+}
+.demobtn button {
+  background-color: #29abe2;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 22.5px;
+  padding: 8px 26px;
+  border-radius: 7px;
+  border: none;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+.thridSection .swiper-slide.swiper-slide-active {
+  padding: 10px 18px 10px 18px;
+  gap: 10px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #4e546e !important;
+  border-radius: 5px;
+  color: #fff;
+}
+.thridSection .mySwiper3 .swiper-slide {
+  padding: 10px 18px 10px 18px;
+  gap: 10px;
+  border-radius: 5px;
+  opacity: 0px;
+  color: #fff;
+  background-color: #4e546e4f;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  height: 13px !important;
+  font-size: 13px !important;
+  height: 12px m !important;
+}
+.swiper-button-prev.swiper-button-disabled {
+  left: -43px !important;
+}
+.swiper-button-prev {
+  left: -30px !important;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  width: 40px !important;
+  height: 39px !important;
+  background-color: #4e546e;
+}
+.swiper-button-next {
+  right: -18px !important;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+  width: 40px !important;
+  height: 39px !important;
+}
+.mainSection {
+  padding: 8% 5%;
+}
+.mainHeadingSection {
+  width: 55%;
+}
+.actionFrom {
+  width: 445px;
+  height: 477px;
+  padding: 40px;
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 0 0px 11px 0px rgb(0 0 0 / 18%);
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  width: 100%;
+  border-radius: 17px 21.5px 21.5px 0px;
+}
+#swiperRight img {
+  width: 100px !important;
+  height: 40px;
+}
+#swiperLeft img {
+  width: 100px !important;
+  height: 40px;
+}
+.heading {
+  font-family: HvDTrial Brandon Grotesque Regular;
+  color: #0099c4;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 73px;
+}
+.subtext {
+  color: #2f3241b2;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+}
+p.subtext:after {
+  content: "";
+  background-color: #d9d9d9;
+  height: 2px;
+  width: 84%;
+  margin: 7% 0px;
+}
+.informationntext {
+  margin-bottom: 6%;
+  color: #4e546e;
+  font-family: HvDTrial Brandon Grotesque Regular;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.fadeeffect {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 6%;
+  margin-top: 8%;
+  height: 432px;
+  justify-content: space-evenly;
+}
+.formHeading {
+  text-align: center;
+  background-color: #fff;
+  font-size: 23.7px;
+  font-weight: 700px;
+  list-style: 24px;
+}
+.fadeeffect input {
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #d0d5dd;
+}
+.formText {
+  font-size: 12px;
+  font-weight: 500;
+  background-color: #fff;
+}
+.submit {
+  padding: 11.86px 19.77px 11.86px 19.77px;
+  border-radius: 7.91px;
+  border: none;
+  background: linear-gradient(180deg, #eea849 0%, #f46b45 100%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.swiper-horizontal {
+  margin: 5% 0%;
+}
+.slider {
+  position: relative;
+}
+.slider::before {
+  content: url(./images/Rectangle\ left.png);
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.slider::after {
+  content: url(./images/Rectangle\ right.png);
+  position: absolute;
+  top: 0%;
+  z-index: 1;
+}
+.slider::before {
+  left: -25px;
+  border-top-left-radius: 10px;
+  z-index: 3;
+  top: 0%;
+  border-bottom-left-radius: 10px;
+  height: 120px;
+}
+.thridSection .slider::before {
+  content: none;
+}
+.thridSection .slider::after {
+  content: none;
+}
+.slider::after {
+  right: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.fifthSection {
+  background-image: url(./images/Group\ 48096007.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.worldImage {
+  height: 500px;
+  background-image: url(./images/worldImg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.worldSectionHeading {
+  font-family: "HvDTrial Brandon Grotesque Regular";
+  font-size: 64px;
+  font-weight: 700;
+  color: #4e546e;
+  text-align: center;
+  width: 1000px;
+  background: transparent;
+  margin: 0 auto;
+}
+.worldSubtext {
+  text-align: center;
+  background: transparent;
+}
+
+.viewDemoBtn {
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+  margin-top: 4%;
+  border: none;
+  padding: 11.86px 19.77px 11.86px 19.77px;
+  border-radius: 7.91px;
+  border: none;
+  background: linear-gradient(180deg, #eea849 0%, #f46b45 100%);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.sectionHeading {
+  font-family: "HvDTrial Brandon Grotesque Regular";
+  font-size: 47px;
+  font-weight: 700;
+  line-height: 20.89px;
+  text-align: center;
+  color: #2f3241;
+  margin-bottom: 2%;
+  background: transparent;
+}
+.sectionSubHeading {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.89px;
+  text-align: center;
+  color: #2f3241;
+  margin-bottom: 4%;
+  background: transparent;
+}
+.fashionImgs {
+  display: flex;
+  justify-content: space-evenly;
+}
+.desktopclientImages {
+  display: block;
+}
+.slider.mobile {
+  display: none;
+}
+.desktopclientImages img {
+  object-fit: cover;
+  width: 100%;
+  background-color: transparent;
+}
+.informatinSection {
+  display: flex;
+  justify-content: space-between;
+}
+.details,
+.mainImage {
+  width: 45%;
+}
+.detailHeading {
+  font-family: "HvDTrial Brandon Grotesque Regular";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 20.89px;
+  text-align: left;
+  color: #4e546e;
+  margin-bottom: 4%;
+}
+.detailSectionSubText {
+  width: 500px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.89px;
+  text-align: left;
+  margin-bottom: 4%;
+  color: #4e546e;
+}
+.details ul {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.89px;
+  text-align: left;
+  color: #4e546e;
+  margin-left: 2.5%;
+}
+.details ul li {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.89px;
+  padding-left: 15px;
+  text-align: left;
+  color: #4e546e;
+  margin: 3% 0;
+}
+.details ul li::marker {
+  content: url("./images/dot.svg");
+}
+.testimonial {
+  margin-right: 50px;
+  background-color: #4e546e;
+  padding: 5px;
+  width: 414px !important;
+  height: 308px;
+  gap: 0px;
+  border-radius: 20px;
+}
+.Company {
+  width: 84px;
+  height: 43px;
+  top: 4px;
+  left: 449px;
+  gap: 0px;
+  border-radius: 17px 21.5px 21.5px 0px;
+  opacity: 0px;
+  padding: 2px;
+}
+.testimonial p {
+  background: transparent;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25.89px;
+  text-align: left;
+  padding: 27px;
+}
+.personInformation {
+  display: flex;
+  background-color: transparent;
+  padding: 30px;
+  align-items: center;
+  gap: 4%;
+}
+.personInformation img {
+  width: 64px;
+  background-color: transparent;
+  height: 64px;
+  object-fit: contain;
+}
+.personName {
+  background-color: transparent;
+}
+.personName p {
+  padding: 0%;
+  background-color: transparent;
+}
+.personName .company {
+  font-family: "HvDTrial Brandon Grotesque Regular";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.89px;
+  text-align: left;
+  color: #f5f5f5;
+}
+.sectionDetails {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 31px 0px;
+}
+.sectionDetails .sectionDetail {
+  width: 286px;
+  height: 180px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 1%;
+}
+.sectionDetail h3 {
+  margin: 8% 0%;
+}
+.instagram p {
+  text-align: left;
+  display: flex;
+  gap: 4%;
+  align-items: center;
+  margin-top: 3%;
+}
+.instagram p:before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 22px;
+  background-color: #02bace;
+}
+@media only screen and (max-width: 767px) {
+  .heading {
+    font-size: 32px;
+    line-height: 47px;
+  }
+  .subtext {
+    font-size: 12px;
+  }
+  .mainSection {
+    flex-direction: column;
+  }
+  .sectionHeading {
+    font-size: 24px;
+  }
+  .sectionSubHeading {
+    font-size: 14px;
+  }
+  .informatinSection {
+    flex-direction: column;
+  }
+  .details,
+  .mainImage {
+    width: 100%;
+  }
+  .mainImage img {
+    width: 100%;
+  }
+  .detailHeading {
+    font-size: 20px;
+  }
+  .detailSectionSubText {
+    font-size: 14px;
+  }
+  .details ul {
+    font-size: 14px;
+  }
+  .desktopclientImages {
+    display: none;
+  }
+  .slider.mobile {
+    display: block;
+    background-color: transparent;
+  }
+  .fashionImgs {
+    flex-wrap: wrap;
+  }
+  .fashionImgs :last-child {
+    display: none;
+  }
+  #swiperRight1 img {
+    width: 184px !important;
+    height: 90px;
+    object-fit: contain;
+  }
+  #swiperLeft1 img {
+    width: 184px !important;
+    height: 90px;
+    object-fit: contain;
+  }
+  .forthSection .slider::before,
+  .fifthSection .slider::before,
+  .seventhSection .slider::before {
+    content: none;
+  }
+  .forthSection .slider::after,
+  .fifthSection .slider::after,
+  .seventhSection .slider::after {
+    content: none;
+  }
+  .swiper.mySwiper1,
+  .swiper.mySwiper2 {
+    background-color: transparent;
+  }
+  .sectionDetail p {
+    display: none;
+  }
+  .sectionDetails .sectionDetail {
+    height: 70px;
+    display: flex;
+    gap: 29px 0px;
+    align-items: center;
+    width: 165px;
+    gap: 9px;
+  }
+  .sectionDetail img {
+    width: 39px;
+    height: 39px;
+  }
+  .sectionDetail h3 {
+    font-size: 14px;
+  }
+  .worldSectionHeading {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  .worldSubtext {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .detailSectionSubText {
+    width: 100%;
+  }
+  .actionFrom {
+    width: auto;
+  }
+  .mainHeadingSection {
+    width: 100%;
+  }
+  .mainSection {
+    padding: 22% 5%;
+  }
+  .eightSection {
+    padding: 4% 0% !important;
+  }
+  .worldImage {
+    height: 339px;
+    background-size: 100%;
+  }
+  .informationntext {
+    font-size: 18px;
+  }
+  .mainHeadingSection .slider::before {
+    width: 50px;
+    left: -18px;
+    border-top-left-radius: 10px;
+    z-index: 3;
+    top: 56%;
+    border-bottom-left-radius: 10px;
+    height: 98px;
+  }
+  .mainHeadingSection .slider::after {
+    /* width: 50px; */
+    right: -18px;
+    border-top-left-radius: 10px;
+    z-index: 1;
+    top: 56%;
+    border-bottom-left-radius: 10px;
+    height: 98px;
+  }
+  p.subtext:after {
+    width: 100%;
+  }
+  .sectionHeading {
+    line-height: 40.89px;
+  }
+  .fashionImgs {
+    justify-content: space-between;
+    row-gap: 20px;
+  }
+  .fashionImgs img {
+    width: 47%;
+    object-fit: contain;
+  }
+  .mySwiper3 .swiper-wrapper .swiper-slide {
+    width: 204px !important;
+  }
+  .swiper-button-next {
+    top: 36% !important;
+  }
+  .swiper-button-prev {
+    top: 36% !important;
+    left: -14px !important;
+  }
+  .swiper-button-prev.swiper-button-disabled {
+    left: -14px !important;
+  }
+  .mySwiper6 #swiperLeft1 .instagram img {
+    width: 100% !important;
+    height: auto;
+  }
+}
