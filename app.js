@@ -419,7 +419,7 @@ var swiper = new Swiper(".mySwiper6", {
   spaceBetween: 32,
   //   speed: 10000,
   breakpoints: {
-    961: { slidesPerView: 2 },
+    961: { slidesPerView: 5 },
     767: { slidesPerView: 1 },
     540: { slidesPerView: 1 },
     420: { slidesPerView: 1 },
